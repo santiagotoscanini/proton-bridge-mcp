@@ -1,0 +1,26 @@
+X-Pm-Gluon-Id: 4e8f1c2a-0000-4000-8000-000000000001
+Authentication-Results: mailin.example.com; dkim=pass header.d=example.org; spf=pass smtp.mailfrom=example.org; dmarc=pass
+X-Pm-Spam-Action: inbox
+X-Pm-Spamscore: 0
+X-Pm-Origin: external
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Transfer-Encryption: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+Delivered-To: me.alias@example.org
+From: Leo Example <leo@example.org>
+To: me.alias@example.org
+Reply-To: replies@example.org
+Subject: =?UTF-8?Q?Factura_n=C2=BA_2026-118?=
+Date: Sat, 24 Oct 2026 08:00:00 +0000
+X-Original-Date: Thu, 01 Jan 1970 00:00:00 +0000
+Message-Id: <bridgeInternal123==@protonmail.internalid>
+References: <thread-root-9@example.org> <bridgeInternal123==@protonmail.internalid>
+In-Reply-To: <thread-root-9@example.org>
+List-Unsubscribe: <mailto:unsubscribe@example.org>, <https://example.org/unsub?u=1>
+X-Pm-Internal-Id: bridgeInternal123==
+X-Pm-Date: Sat, 24 Oct 2026 08:00:01 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Adjunto la factura n=C2=BA 2026-118 por el servicio de octubre. Vence el =
+15 de noviembre.

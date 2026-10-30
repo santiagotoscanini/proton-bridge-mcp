@@ -1,0 +1,11 @@
+From: =?utf-8?q?Doe=2C_Jane?= <jane@example.org>, =?UTF-8?B?w4lsb8Ovc2U=?= <eloise@example.org>
+Sender: jane@example.org
+To: =?UTF-8?Q?=C3?= =?UTF-8?Q?=A9t=C3=A9_team?= <me@example.com>
+Subject: =?UTF-8?B?8J+OiSBDZWxlYnJhdGlvbiBz?=
+ =?UTF-8?B?ZW1pbmFyIOKAlCDDqXTDqQ==?=
+Date: Thu, 15 Oct 2026 08:00:00 +0000
+Message-ID: <rfc2047-1@example.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Split encoded words above.

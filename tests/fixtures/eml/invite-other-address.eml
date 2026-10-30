@@ -1,0 +1,32 @@
+From: organizer@example.org
+To: someone.else@example.net
+Delivered-To: someone.else@example.net
+Subject: Invitation: Offsite
+Date: Mon, 19 Oct 2026 09:00:00 +0000
+Message-ID: <invite-other-1@example.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b"
+
+--b
+Content-Type: text/plain; charset=utf-8
+
+Forwarded invitation.
+--b
+Content-Type: text/calendar; charset=utf-8; method=REQUEST
+Content-Disposition: attachment; filename="invite.ics"
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:offsite-7@example.org
+DTSTART:20261110T130000Z
+DTEND:20261110T170000Z
+DTSTAMP:20261019T090000Z
+ORGANIZER:mailto:organizer@example.org
+ATTENDEE;PARTSTAT=NEEDS-ACTION:mailto:someone.else@example.net
+SUMMARY:Offsite
+END:VEVENT
+END:VCALENDAR
+--b--

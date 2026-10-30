@@ -1,0 +1,23 @@
+From: organizer@example.org
+To: me@example.com
+Subject: Canceled: Planning session
+Date: Tue, 20 Oct 2026 08:00:00 +0000
+Message-ID: <invite-cancel-1@example.org>
+MIME-Version: 1.0
+Content-Type: text/calendar; charset=utf-8; method=CANCEL
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example//EN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:planning-session-42@example.org
+DTSTART:20261103T130000Z
+DTSTAMP:20261020T080000Z
+ORGANIZER:mailto:organizer@example.org
+ATTENDEE;PARTSTAT=NEEDS-ACTION:mailto:me@example.com
+SEQUENCE:3
+STATUS:CANCELLED
+SUMMARY:Planning session
+END:VEVENT
+END:VCALENDAR

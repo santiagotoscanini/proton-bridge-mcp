@@ -1,0 +1,12 @@
+From: promo@example.org
+To: me@example.com
+Subject: Zero width padding
+Date: Sun, 25 Oct 2026 08:00:00 +0000
+Message-ID: <zw-1@example.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D"font-size:0px;color:#fff">Preview text =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C</div><p>Big=E2=80=8Bsale=C2=AD today: in=E2=80=8Dvisible=
+ split words.</p><span hidden>do not show this</span>

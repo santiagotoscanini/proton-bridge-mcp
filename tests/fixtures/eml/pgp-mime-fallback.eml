@@ -1,0 +1,24 @@
+From: ivan@example.com
+To: me@example.com
+Subject: Encrypted to an old key
+Date: Wed, 21 Oct 2026 08:00:00 +0000
+Message-ID: <pgp-fallback-1@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/encrypted; boundary="enc-b"; protocol="application/pgp-encrypted"
+
+--enc-b
+Content-Type: application/pgp-encrypted
+Content-Description: PGP/MIME version identification
+
+Version: 1
+--enc-b
+Content-Type: application/octet-stream; name="encrypted.asc"
+Content-Disposition: inline; filename="encrypted.asc"
+Content-Description: OpenPGP encrypted message
+
+-----BEGIN PGP MESSAGE-----
+
+wcBMA0f5s9wmmcflAQf/ZXhhbXBsZSBkYXRhIG9ubHk=
+=abcd
+-----END PGP MESSAGE-----
+--enc-b--

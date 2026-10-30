@@ -1,0 +1,10 @@
+From: frank@example.com
+To: me@example.com
+Subject: Unknown charset
+Date: Tue, 13 Oct 2026 08:00:00 +0000
+Message-ID: <unknown-cs-1@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=x-made-up-charset
+Content-Transfer-Encoding: 8bit
+
+UTF-8 bytes anyway: über € 10

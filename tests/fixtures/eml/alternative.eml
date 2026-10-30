@@ -1,0 +1,19 @@
+From: Bob Example <bob@example.org>
+To: me@example.com
+Subject: Quarterly report
+Date: Wed, 07 Oct 2026 10:00:00 +0200
+Message-ID: <alternative-1@example.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="alt-boundary"
+
+--alt-boundary
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+The plain version of the quarterly report.
+--alt-boundary
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body><p>The <b>HTML</b> version of the quarterly report.</p></body></html>
+--alt-boundary--

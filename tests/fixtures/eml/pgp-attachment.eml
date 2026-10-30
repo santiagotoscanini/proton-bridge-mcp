@@ -1,0 +1,25 @@
+From: kim@example.com
+To: me@example.com
+Subject: Attachment Bridge could not decrypt
+Date: Fri, 23 Oct 2026 08:00:00 +0000
+Message-ID: <pgp-att-1@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="att-b"
+
+--att-b
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+See the contract.
+--att-b
+Content-Type: application/octet-stream; name="=?utf-8?q?contract.pdf.pgp?="
+Content-Disposition: attachment; filename="=?utf-8?q?contract.pdf.pgp?="
+
+-----BEGIN PGP MESSAGE-----
+Version: GopenPGP 2.7.4
+Comment: This attachment could not be decrypted: gopenpgp: error
+
+wcBMA0f5s9wmmcflAQf/ZXhhbXBsZSBkYXRhIG9ubHk=
+=abcd
+-----END PGP MESSAGE-----
+--att-b--

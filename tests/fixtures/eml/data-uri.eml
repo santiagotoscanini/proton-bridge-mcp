@@ -1,0 +1,11 @@
+From: marketing@example.org
+To: me@example.com
+Subject: Inline data
+Date: Mon, 26 Oct 2026 08:00:00 +0000
+Message-ID: <data-uri-1@example.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<p>Logo: <img alt="brand" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="></p>
+<p><a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">click me</a></p>
+<p>Raw text mention data:text/plain;base64,SGVsbG8gd29ybGQgdGhpcyBpcyBsb25n end.</p>

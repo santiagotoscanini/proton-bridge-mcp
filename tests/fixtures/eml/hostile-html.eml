@@ -1,0 +1,11 @@
+From: x@example.org
+To: me@example.com
+Subject: Malformed HTML
+Date: Thu, 29 Oct 2026 08:00:00 +0000
+Message-ID: <hostile-1@example.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<html><body><div><div><table><tr><td>cell one<td>cell two<tr><td>row two
+<p>unclosed paragraph<b>bold <i>italic</b> mixed</i>
+<!-- a comment that never ends <script>alert(1)</script>

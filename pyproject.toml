@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proton-bridge-mcp"
+version = "0.1.0"
+description = "MCP server for Proton Mail through Proton Mail Bridge: read, organize, draft; sends only calendar replies"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+  "icalendar>=6",
+  "imapclient>=3.1",
+  "mcp>=1.26",
+  "starlette",
+  "uvicorn",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "hypothesis", "httpx"]
+
+[project.scripts]
+proton-mcp = "proton_mcp.__main__:main"
+proton-mcp-smoke = "proton_mcp.smoke:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "gluon: end to end against a real gluon IMAP server (needs PROTON_MCP_GLUON)",
+  "perf: timings on a seeded gluon (needs PROTON_MCP_PERF=1)",
+]
+
+[tool.ruff]
+line-length = 130
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]

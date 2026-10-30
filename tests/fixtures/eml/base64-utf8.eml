@@ -1,0 +1,10 @@
+From: carol@example.net
+To: me@example.com
+Subject: Base64 body
+Date: Sat, 10 Oct 2026 08:00:00 +0000
+Message-ID: <base64-1@example.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+VGhlIGtleSBpcyB1bmRlciB0aGUgbWF0LiBDYWbDqSBhdCA4Lg==
